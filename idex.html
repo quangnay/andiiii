@@ -1,0 +1,31 @@
+<a href="http://127.0.0.1:5500/idex.html">Ấn Thử Đi</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hello cậu </title>
+  <style>
+    /* Thêm CSS của bạn ở đây (tùy chọn) */
+  </style>
+</head>
+<body>
+  <h1>mở thử đi có điều đặc biệt đó</h1>
+  <p>nếu cậu tự tin dám mở thì hãy mởm nó ra nha <3</p>
+  <button id="tinh-button">Dám mở không ? </button>
+
+  <script>
+    const tinhButton = document.getElementById("tinh-button");
+
+    tinhButton.addEventListener("click", function() {
+      const response = confirm("chọn có hoặc không nha");
+      if (response) {
+        alert("mày là con chó");
+      } else {
+        alert("mày chọn không thì m vẫn là con chó thôi");
+      }
+    });
+  </script>
+</body>
+</html>
+
